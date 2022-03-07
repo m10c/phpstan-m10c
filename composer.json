@@ -3,6 +3,7 @@
     "description": "A collection of custom phpstan rules to be used across M10C projects.",
     "type": "library",
     "license": "M10C Proprietary",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "M10c\\Phpstan\\": "src/"
@@ -14,9 +15,8 @@
             "email": "pavel.leonovic@m10c.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "phpstan/phpstan": "1.4.x-dev",
-        "webmozart/assert": "1.10.x-dev"
+        "phpstan/phpstan": "^1.4",
+        "webmozart/assert": "^1.10"
     }
 }
