@@ -2,7 +2,7 @@
     "name": "m10c/phpstan-m10c",
     "description": "A collection of custom phpstan rules to be used across M10C projects.",
     "type": "library",
-    "license": "M10C Proprietary",
+    "license": "MIT",
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
